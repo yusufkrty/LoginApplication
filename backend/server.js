@@ -1,11 +1,10 @@
-// Ana uygulama dosyası
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const authRoutes = require('./node-login/routes/authRoutes');
-const profileRoutes = require('./node-login/routes/homeRoutes');
-const config = require('./node-login/config/config');
-const cors= require("cors");
+const authRoutes = require('./src/routes/authRoutes');
+const profileRoutes = require('./src/routes/homeRoutes');
+const config = require('./src/config/config');
+const cors = require("cors");
 
 const app = express();
 
