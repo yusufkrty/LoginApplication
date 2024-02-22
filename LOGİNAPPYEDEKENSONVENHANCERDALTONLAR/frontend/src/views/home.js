@@ -17,7 +17,7 @@ const Home = () => {
     const handleButtonClick = async () => {
         try {
             setLoading(true);
-            const apiUrl = 'http://localhost:3000/api/home';
+            const apiUrl = 'https://loginapplication-5.onrender.com/api/home';
             axios.get(apiUrl)
                 .then(response => {
 
